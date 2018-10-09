@@ -12,6 +12,7 @@ CPmodelChibReg			= function(
     #sigma2		= c(sigma2SIM,rep(20,Kmax)),
     #st			= rep(1:2,each=1000)[1:1500],
     st			= stSIM,
+    beta		= 0.01,
     pi			= 	rdirichlet(1,rep(1,K))								
   ),
   
